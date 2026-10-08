@@ -1,0 +1,46 @@
+# Terraform state and generated files
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Ansible generated files
+*.retry
+
+# Application dependencies, builds, and coverage
+node_modules/
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local workspace metadata and assignment source
+.agents/
+.aws/
+.codex/
+.taskflow-git/
+Platform_Engineer_Assignment_v2 1.pdf
